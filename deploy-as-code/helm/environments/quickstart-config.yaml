@@ -1,5 +1,5 @@
 global:
-   domain: quickstart.local.digit ## Add your Domain Name
+   domain: quickstart.intern.niua ## Add your Domain Name
    
 cluster-configs:
     namespaces:
@@ -15,8 +15,8 @@ cluster-configs:
                 db-host: postgres.egov ## Add db-host name
                 db-name: egov_ms ## Add db-name
                 db-url: "jdbc:postgresql://postgres.egov:5432/egov_ms" ## example: jdbc:postgresql://egov-demo.postgres.database.azure.com:5432/egov_demo
-                domain: "quickstart.local.digit" ## Add your Domain Name
-                egov-services-fqdn-name: "http://quickstart.local.digit/" ## Add your Domain Name
+                domain: "quickstart.intern.niua" ## Add your Domain Name
+                egov-services-fqdn-name: "http://quickstart.intern.niua/" ## Add your Domain Name
                 egov-state-level-tenant-id: "pg" ##Add tenant id example: pb
                 es-host: "elasticsearch-client-v1.es-cluster"
                 es-indexer-host: "http://elasticsearch-client-v1.es-cluster:9200/"
